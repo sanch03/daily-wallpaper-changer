@@ -1,0 +1,45 @@
+#fbar {
+    background: #3e3737d6 !important;
+    border-top: 0px solid #e4e4e4 !important; 
+    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+.ftl, #footer a {
+    color: #ffffff !important;
+}
+.b2hzT {
+    border-bottom: 0px solid #e4e4e4 !important;
+}
+#hptl a {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+#gb#gb a.gb_d, #gb#gb a.gb_e, #gb#gb span.gb_e {
+    color: rgb(255, 255, 255) !important;
+}
+.gb_sc {
+    background-image: url('https://i.imgur.com/1oCAQTs.png') !important;
+}
+.gb_y .gb_z {
+    opacity: 1 !important;
+}
+.gb_o {
+color: rgb(0, 0, 0) !important;
+}
+body {
+   /* background-image: url('https://source.unsplash.com/collection/136095/1920x1080/daily') !important; */
+	background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+#fsett {
+    background: #fff !important;
+	opacity: 1.0 !important;
+	-webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255,255,255,1)), to(rgba(255,255,,255,1))) !important;
+    mask-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,1)) !important;
+
+}
+.jhp input[type="submit"], .gbqfba {
+    border-radius: 20px !important;
+    background-image: -webkit-linear-gradient(top,#ffffff,#ffffff) !important;
+}
+
