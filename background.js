@@ -49,9 +49,17 @@ chrome.runtime.onMessage.addListener(function (message, sender, senderResponse) 
 			console.log(actres.google_com_mainpage);
 			if (actres.google_com_mainpage === "1") {
 				senderResponse({ msg: "1" });
-				chrome.tabs.insertCSS(sender.tab.id, { file: "google_com_mainpage.css" });
+				chrome.scripting.insertCSS(
+					{
+						target: { tabId: sender.tab.id },
+						files: ["google_com_mainpage.css"]
+					});
 				chrome.storage.local.get('image', function (result) {
-					chrome.tabs.insertCSS(sender.tab.id, { code: "body{background-image: url(" + result.image + ") !important;}" });
+					chrome.scripting.insertCSS(
+						{
+							target: { tabId: sender.tab.id },
+							css: "body{background-image: url(" + result.image + ") !important;}"
+						});
 				});
 			}
 		});
@@ -70,10 +78,17 @@ chrome.runtime.onMessage.addListener(function (message, sender, senderResponse) 
 				console.log(res[v1]);
 				if (res[v1] === "1") {
 					senderResponse({ msg: "1" });
-					chrome.tabs.insertCSS(sender.tab.id, { file: "google_com_search.css" });
+					chrome.scripting.insertCSS(
+						{
+							target: { tabId: sender.tab.id },
+							files: ["google_com_search.css"]
+						});
 					chrome.storage.local.get('image', function (result) {
-						chrome.tabs.insertCSS(sender.tab.id, { code: ".sfbgx {background-image: url(" + result.image + ")!important;}" });
-						chrome.tabs.insertCSS(sender.tab.id, { code: ".minidiv .sfbg {background-image: url(" + result.image + ") !important;}" });
+						chrome.scripting.insertCSS(
+							{
+								target: { tabId: sender.tab.id },
+								css: ".sfbgx {background-image: url(" + result.image + ")!important;} .minidiv .sfbg {background-image: url(" + result.image + ") !important;}"
+							});
 					});
 				}
 			});
@@ -90,10 +105,18 @@ chrome.runtime.onMessage.addListener(function (message, sender, senderResponse) 
 				console.log(res[v1]);
 				if (res[v1] === "1") {
 					senderResponse({ msg: "1" });
-					chrome.tabs.insertCSS(sender.tab.id, { file: "wikipedia_org.css" });
+					chrome.scripting.insertCSS(
+						{
+							target: { tabId: sender.tab.id },
+							files: ["wikipedia_org.css"]
+						});
 
 					chrome.storage.local.get('image', function (result) {
-						chrome.tabs.insertCSS(sender.tab.id, { code: "#mw-head {background-image: url(" + result.image + ")!important;}" });
+						chrome.scripting.insertCSS(
+							{
+								target: { tabId: sender.tab.id },
+								css: "#mw-head {background-image: url(" + result.image + ")!important;}"
+							});
 					});
 				}
 			});
