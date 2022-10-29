@@ -2,17 +2,16 @@
   "update_url": "https://clients2.google.com/service/update2/crx",
   "manifest_version": 3,
   "name": "Daily Wallpaper Changer (Google & Wikipedia)",
-  "version": "0.50",
+  "version": "0.60",
   "description": "Changes the wallpaper of Google and Wikipedia to the Bing Daily Wallpaper. The image updates every day.",
   "permissions": [
-    "activeTab",
     "tabs",
     "storage",
     "scripting"
   ],
   "host_permissions": [
-    "https://*.google.com/*",
-    "https://*.wikipedia.org/*"
+    "http://*/*",
+    "https://*/*"
   ],
   "icons": {
     "16": "/images/favicon-16x16.png",
@@ -20,50 +19,19 @@
     "128": "/images/favicon-128.png"
   },
   "background": {
-    "service_worker": "background.js",
-    "type": "module"
+    "service_worker": "background.js"
   },
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "index.html"
   },
   "content_scripts": [
     {
       "matches": [
+        "http://*/*",
         "https://*/*"
       ],
-      "include_globs": [
-        "https://www.google.*/*"
-      ],
-      "exclude_matches": [
-        "https://*/search?*"
-      ],
       "js": [
-        "jquery-3.4.1.min.js",
-        "google_com_mainpage.js"
-      ]
-    },
-    {
-      "matches": [
-        "https://*/*"
-      ],
-      "include_globs": [
-        "https://*.wikipedia.org/*"
-      ],
-      "js": [
-        "jquery-3.4.1.min.js",
-        "wikipedia_org.js"
-      ]
-    },
-    {
-      "matches": [
-        "https://*/*"
-      ],
-      "include_globs": [
-        "https://www.google.*/search?*"
-      ],
-      "js": [
-        "jquery-3.4.1.min.js",
-        "google_com_search.js"
+        "contentscript.js"
       ]
     }
   ]
