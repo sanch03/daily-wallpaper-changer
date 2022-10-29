@@ -1,0 +1,16 @@
+[
+    {
+        "name": "google_homepage",
+        "hostname": "(www.)?google.*",
+        "pathname": "/",
+        "css": "body{background-image: url({{image}}) !important;}",
+        "js": null
+    },
+    {
+        "name": "google_search",
+        "hostname": "(www.)?google.*",
+        "pathname": "/search",
+        "css": "",
+        "js": null
+    }
+]
