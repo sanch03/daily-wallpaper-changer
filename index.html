@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>dailywallpaperchanger</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Toggle-Switch-toggle-switch.css">
+    <link rel="stylesheet" href="assets/css/Toggle-Switch.css">
+</head>
+
+<body style="width: 290px;border-radius: 6px;">
+    <div class="card" style="margin: 2.5%;">
+        <div class="card-body" style="background: var(--bs-gray-300);">
+            <h4 class="card-title">Daily Wallpaper Changer</h4>
+            <h6 class="text-muted card-subtitle mb-2"><strong>Image Details</strong></h6><img id="image" width="100"
+                height="80" style="width: 100%;height: auto;border-radius: 6px;">
+            <div class="row">
+                <div class="col"><small><strong>Source:&nbsp;</strong></small><small id="source"></small></div>
+            </div>
+            <div class="row">
+                <div class="col" style="margin-bottom: 10px;"><small><strong>Copyright:&nbsp;</strong></small><small
+                        id="copyright"></small></div>
+            </div><button class="btn btn-primary" id="button2" type="button">Change Image</button>
+            <h6 class="text-muted card-subtitle mb-2" style="margin-top: 10px;"><strong>Configuration and
+                    Settings</strong></h6>
+            <div class="row">
+                <div class="col" style="margin-bottom: 5px;"><small><strong>Enable/Disable for this
+                            page:</strong></small></div>
+            </div><label class="switch">
+                <input id="option2_slider" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <div class="row">
+                <div class="col" style="margin-top: -10px;margin-bottom: 5px;"><sub id="cur">Current URL ID:</sub></div>
+            </div>
+            <div class="row">
+                <div class="col"><a
+                        href="https://chrome.google.com/webstore/detail/daily-wallpaper-for-googl/hkoeemgmbjeknglofbbbadelcnfhdknf"
+                        target="_blank">Support by rating us.</a></div>
+            </div>
+            <!-- <button class="btn btn-primary" id="button3" type="button">Refresh JSON</button> -->
+            <script type="text/javascript" src="./tools.js"></script>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
