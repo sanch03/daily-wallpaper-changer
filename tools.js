@@ -34,7 +34,7 @@ async function getImage() {
 
 async function refreshJSONList() {
     let jsonlist = await (await fetch('https://raw.githubusercontent.com/sanchits2003/daily-wallpaper-changer/main/jsonlist.json')).json();
-    //let jsonlist = await (await fetch('http://192.168.1.113:5500/jsonlist.json')).json();
+    //let jsonlist = await (await fetch('http://192.168.1.113:5500/build/jsonlist.json')).json();
     chrome.storage.local.set({ 'jsonlist': jsonlist });
 }
 

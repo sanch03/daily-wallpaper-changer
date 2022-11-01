@@ -1,0 +1,23 @@
+[
+  {
+    "name": "google_homepage",
+    "hostname": "(www.)?google.*",
+    "pathname": "(/|/webhp)",
+    "css": "body{background-image:url({{image}})!important}#gb,.c93Gbe{background-color:transparent!important}.lnXdpd{content:url(https://imgur.com/KE298oL.png)!important}",
+    "js": null
+  },
+  {
+    "name": "google_search",
+    "hostname": "(www.)?google.disabled",
+    "pathname": "/search",
+    "css": ".sfbg{background-image:url({{image}})!important;height:initial!important}.logo a img{content:url(https://imgur.com/KE298oL.png)}#pTwnEc,.c93Gbe{background-color:transparent!important}.lnXdpd{content:url(https://imgur.com/KE298oL.png)!important}.minidiv .sfbg{height:72px!important}#cnt{opacity:1!important;background-repeat:no-repeat!important;background-size:cover!important;background:linear-gradient(180deg,rgba(255,255,255,0)0,#fff 132px),url({{image}})}",
+    "js": null
+  },
+  {
+    "name": "wikipedia",
+    "hostname": "*.wikipedia.*",
+    "pathname": "*",
+    "css": "#mw-head{background-image:url({{image}});height:15%!important;-webkit-mask-image:-webkit-gradient(linear,left top,left bottom,from(#000),to(transparent));mask-image:linear-gradient(to bottom,#000,transparent)}#pt-anonuserpage{color:#fff!important}a{color:#00b6ff!important}",
+    "js": null
+  }
+]

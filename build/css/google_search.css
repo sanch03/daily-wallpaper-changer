@@ -1,0 +1,32 @@
+.sfbg {
+    background-image: url({{image}}) !important;
+    height: initial !important;
+}
+
+.logo a img {
+    content: url(https://imgur.com/KE298oL.png)
+}
+
+#pTwnEc {
+    background-color: transparent !important;
+}
+
+.c93Gbe {
+    background-color: transparent !important;
+}
+
+.lnXdpd {
+    content: url(https://imgur.com/KE298oL.png) !important;
+}
+
+.minidiv .sfbg {
+    height: 72px !important;
+}
+
+#cnt {
+    opacity: 1 !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 132px),
+    url({{image}})
+}
