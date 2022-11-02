@@ -33,6 +33,10 @@
     #appbar {
         background: transparent !important;
     }
+
+    .g .Ww4FFb .vt6azd .tF2Cxc {
+        background: transparent !important;
+    }
 }
 
 @media (prefers-color-scheme: light) {
@@ -77,6 +81,10 @@
     #hdtb-tls {
         color: white !important;
         -webkit-text-stroke: 0.25px black;
+    }
+
+    .g .Ww4FFb .vt6azd .tF2Cxc {
+        background: transparent !important;
     }
 
 }
