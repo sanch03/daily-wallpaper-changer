@@ -1,32 +1,82 @@
-.sfbg {
-    background-image: url({{image}}) !important;
-    height: initial !important;
+@media (prefers-color-scheme: dark) {
+    .sfbg {
+        background-image: url({{image}}) !important;
+        height: initial !important;
+    }
+
+    .logo a img {
+        content: url(https://imgur.com/KE298oL.png)
+    }
+
+    #pTwnEc {
+        background-color: transparent !important;
+    }
+
+    .c93Gbe {
+        background-color: transparent !important;
+    }
+
+    .lnXdpd {
+        content: url(https://imgur.com/KE298oL.png) !important;
+    }
+
+    .minidiv .sfbg {
+        height: 72px !important;
+    }
+
+    #cnt {
+        opacity: 1 !important;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 95px, rgba(32, 33, 36, 1) 235px),
+        url({{image}})
+    }
+
+    #appbar {
+        background: transparent !important;
+    }
 }
 
-.logo a img {
-    content: url(https://imgur.com/KE298oL.png)
-}
+@media (prefers-color-scheme: light) {
+    .sfbg {
+        background-image: url({{image}}) !important;
+        height: initial !important;
+    }
 
-#pTwnEc {
-    background-color: transparent !important;
-}
+    .logo a img {
+        content: url(https://imgur.com/KE298oL.png)
+    }
 
-.c93Gbe {
-    background-color: transparent !important;
-}
+    #pTwnEc {
+        background-color: transparent !important;
+    }
 
-.lnXdpd {
-    content: url(https://imgur.com/KE298oL.png) !important;
-}
+    .c93Gbe {
+        background-color: transparent !important;
+    }
 
-.minidiv .sfbg {
-    height: 72px !important;
-}
+    .lnXdpd {
+        content: url(https://imgur.com/KE298oL.png) !important;
+    }
 
-#cnt {
-    opacity: 1 !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 132px),
-    url({{image}})
+    .minidiv .sfbg {
+        height: 72px !important;
+    }
+
+    #cnt {
+        opacity: 1 !important;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 95px, rgba(255, 255, 255, 1) 235px),
+        url({{image}})
+    }
+
+    #appbar {
+        background: transparent !important;
+    }
+
+    .hdtb-mitem a,
+    #result-stats,
+    .GOE98c,
+    #hdtb-tls {
+        color: white !important;
+        -webkit-text-stroke: 0.25px black;
+    }
+
 }

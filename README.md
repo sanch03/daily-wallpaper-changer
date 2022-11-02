@@ -8,27 +8,23 @@ Currently the codebase is 3 years old and unmaintained.
 
 I am now working on rewriting the entire extension and also making it manifest v3 compliant.
 
-* [x] Figure out if it is even possible to have an extension like this work with manifest v3
-* [x] Rewrite css injection system
-* [ ] Fix known bugs with currently supported websites
-* [x] Add a scalable way to add more websites and implement bugfixes
+* [X] Figure out if it is even possible to have an extension like this work with manifest v3
+* [X] Rewrite css injection system
+* [X] Fix known bugs with currently supported websites
+* [X] Add a scalable way to add more websites and implement bugfixes
 * [ ] Publish updated extension to major web stores
-
-
 
 ##### Current Website Support
 
-* Google Home Page [Partially Working]
-* Google Search Results Page [Broken]
+* Google Home Page [Working]
+* Google Search Results Page [Working]
 * Wikipedia [Working]
-
 
 ##### Future Plans
 
 * Custom gradients instead of backgrounds
 * Options to pick image categories
 * More websites -> Reddit, Gmail, Outlook etc
-
 
 # Installation
 
