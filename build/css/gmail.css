@@ -1,0 +1,11 @@
+.wp {
+    background-image: url({{image}}) !important;
+    filter: brightness(50%);
+}
+
+.wn,
+.wo,
+.wq,
+.w1 {
+    background: transparent !important;
+}

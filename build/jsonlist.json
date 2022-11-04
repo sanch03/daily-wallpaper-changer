@@ -19,5 +19,12 @@
     "pathname": "*",
     "css": "#mw-head{background-image:url({{image}});height:15%!important;-webkit-mask-image:-webkit-gradient(linear,left top,left bottom,from(#000),to(transparent));mask-image:linear-gradient(to bottom,#000,transparent)}#pt-anonuserpage{color:#fff!important}a{color:#00b6ff!important}",
     "js": null
+  },
+  {
+    "name": "gmail",
+    "hostname": "mail.google.com",
+    "pathname": "/mail/*",
+    "css": ".wp{background-image:url({{image}})!important;filter:brightness(50%)}.w1,.wn,.wo,.wq{background:0 0!important}",
+    "js": null
   }
 ]
