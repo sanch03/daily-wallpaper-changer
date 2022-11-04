@@ -1,4 +1,6 @@
-# daily-wallpaper-changer
+# Daily Wallpaper Changer
+
+![](https://img.shields.io/chrome-web-store/v/hkoeemgmbjeknglofbbbadelcnfhdknf?style=for-the-badge) ![Chrome Web Store](https://img.shields.io/chrome-web-store/users/hkoeemgmbjeknglofbbbadelcnfhdknf?style=for-the-badge) ![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/hkoeemgmbjeknglofbbbadelcnfhdknf?style=for-the-badge) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating-count/hkoeemgmbjeknglofbbbadelcnfhdknf?style=for-the-badge)
 
 # State of the Project
 
@@ -20,11 +22,22 @@ I am now working on rewriting the entire extension and also making it manifest v
 * Google Search Results Page [Working]
 * Wikipedia [Working]
 
-##### Future Plans
+##### Future Plans (Roadmap to Version 1.0)
 
-* Custom gradients instead of backgrounds
-* Options to pick image categories
-* More websites -> Reddit, Gmail, Outlook etc
+* [ ] Custom gradients instead of backgrounds
+* [ ] Options to pick image categories
+* [ ] More websites
+  * [ ] Gmail
+  * [ ] Reddit
+  * [ ] Youtube
+  * [ ] Facebook
+  * [ ] Twitter
+  * [ ] Yandex.ru
+  * [ ] Amazon
+  * [ ] Netflix
+  * [ ] Pinterest
+* [ ] Pick alternative image sources
+* [ ] UI/UX Redesign
 
 # Installation
 
