@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Daily Wallpaper Changer (Google & Wikipedia)",
-  "version": "0.60",
+  "version": "0.70",
   "description": "Changes the wallpaper of Google and Wikipedia to the Bing Daily Wallpaper. The image updates every day.",
   "permissions": [
     "tabs",
