@@ -17,7 +17,7 @@
     "name": "wikipedia",
     "hostname": "*.wikipedia.*",
     "pathname": "*",
-    "css": "#mw-head{background-image:url({{image}});height:15%!important;-webkit-mask-image:-webkit-gradient(linear,left top,left bottom,from(#000),to(transparent));mask-image:linear-gradient(to bottom,#000,transparent)}#pt-anonuserpage{color:#fff!important}a{color:#00b6ff!important}",
+    "css": ".mw-header{background-image:url({{image}})}#pt-anonuserpage{color:#fff!important}a{color:#00b6ff!important}",
     "js": null
   },
   {
